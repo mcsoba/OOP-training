@@ -1,6 +1,6 @@
-package com.epam.training.fooddelivery.view;
+package com.oop.training.fooddelivery.view;
 
-import com.epam.training.fooddelivery.domain.*;
+import com.oop.training.fooddelivery.domain.*;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Scanner;
