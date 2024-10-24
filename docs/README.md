@@ -198,7 +198,3 @@ Acceptance
 
 *   Functionality is implemented as defined in the relevant chapter.
 *   Object-Oriented principles are followed.
-
-  
-
-**Document Last Modification: 2023.03.27. 15:16**
