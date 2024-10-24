@@ -1,8 +1,3 @@
-Introduction
-============
-
-The Food Delivery application first version has been implemented in the Java Basics module. The application should be extended in this exercise (some functions can be deleted). See the functional description in the next chapters for the changes.
-
 Data Model
 ==========
 
@@ -33,7 +28,7 @@ Format of customers.csv
     
 | Email address                                    | Password       | Customer Id | Customer name | Account balance   (EUR) |
 |--------------------------------------------------|----------------|-------------|---------------|-------------------------|
-| [test\_user@epam.com](mailto:test_user@epam.com) | XpQC6C4bfqF4ds | 2           | Test User     | 100                     |
+| [test\_user@oop.com](mailto:test_user@oop.com) | XpQC6C4bfqF4ds | 2           | Test User     | 100                     |
 
 Functionality
 =============
@@ -140,23 +135,7 @@ Example for low balance handling:
     Your balance is 87 EUR.
     Thank you for your purchase.
 
-Application Classes
-===================
 
-The following class diagrams and summary table (including the ones in the following section) were written primarily with the Java language in mind - when another language is used, follow the appropriate conventions. In case of .NET
-
-*   Namespace and method names should be written in camel case.
-*   The IList interface should be used in place of Java's List.
-*   Decimal where BigDecimal is specified, DateTime instead of LocalDateTime.
-*   System.Exception should be the base class of custom exceptions etc.
-*   The tester requires external manipulation of private fields. To be implemented with properties.
-
-Domain Model
-------------
-
-![](https://raw.githubusercontent.com/epam-mep-java/exercise-specification-images/main/object-oriented-principles-food-delivery/order-domain.png)
-
- 
 | Class     | Description                                                                                                                                                                                                                                                        |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | User      | Object used to hold login data and retrieve the corresponding Customer object during authentication.                                                                                                                                                               |
@@ -170,15 +149,6 @@ Domain Model
 **Notes**: 
 
 *   All domain classes need to have a default no arg constructor. Feel free to add new ways to create these objects.
-
-Service, View and Data
-======================
-
-![](https://raw.githubusercontent.com/epam-mep-java/exercise-specification-images/main/object-oriented-principles-food-delivery/order-service.png)
-
-![](https://raw.githubusercontent.com/epam-mep-java/exercise-specification-images/main/object-oriented-principles-food-delivery/order-exceptions.png)
-
-![](https://raw.githubusercontent.com/epam-mep-java/exercise-specification-images/main/object-oriented-principles-food-delivery/order-view.png)
 
  
 | Class                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
